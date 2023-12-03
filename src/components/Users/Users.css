@@ -1,0 +1,58 @@
+.tableWrapper{
+    padding: 0 .5rem;
+}
+table{
+    border-collapse: collapse;
+}
+.mainColumn{
+    text-align: left;
+    border-top: 1px solid rgb(149 139 139 / 28%);
+    border-bottom: 1px solid rgb(149 139 139 / 28%);
+    font-size: 1.5rem;
+}
+.tableRows{
+    border-top: 1px solid rgb(149 139 139 / 28%);
+    border-bottom: 1px solid rgb(149 139 139 / 28%);
+    font-size: 1rem;
+}
+.tableRows>td>input{
+    border: none;
+    font-size: 1rem;
+    border-bottom: 1px dotted grey;
+    outline: none;
+}
+.selectedRow{
+    background-color: lightgrey;
+}
+.edit{
+    background: transparent;
+    border: 1px solid rgb(149 139 139 / 28%);
+    color: darkslategray;
+    width: 12%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.delete{
+    background: transparent;
+    border: 1px solid rgb(149 139 139 / 28%);
+    color: red;
+    width: 12%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.save{
+    background: transparent;
+    border: 1px solid rgb(149 139 139 / 28%);
+    color: darkslategray;
+    width: 12%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.cancel{
+    background: transparent;
+    border: 1px solid rgb(149 139 139 / 28%);
+    color: red;
+    width: 12%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

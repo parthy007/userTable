@@ -1,0 +1,36 @@
+.userTable{
+    height: 100vh;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.triggerSearch{
+    width: 25%;
+    border-radius: 2rem;
+    outline: none;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.topWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.deleteMain{
+    background-color: rgb(225 42 42);
+    color: white;
+    border: none;
+    width: 3%;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+.bottomWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
